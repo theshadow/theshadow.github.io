@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musings of an engineer...</title>
+    <link>https://xanderguzman.com/</link>
+    <description>Recent content on Musings of an engineer...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 Xander Guzman</copyright>
+    <lastBuildDate>Wed, 28 Oct 2020 13:16:01 -0600</lastBuildDate><atom:link href="https://xanderguzman.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greetings</title>
+      <link>https://xanderguzman.com/post/greetings/</link>
+      <pubDate>Wed, 28 Oct 2020 13:16:01 -0600</pubDate>
+      
+      <guid>https://xanderguzman.com/post/greetings/</guid>
+      <description>Yay another website Yep it&amp;rsquo;s that time again, that time where I have the spare time to look at my personal website and make a decision about what I want it to be about and what content I want to live on it. I think this is a good start.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://xanderguzman.com/about/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xanderguzman.com/about/</guid>
+      <description>Greetings and Salutations This website is a place to collect my random musings and thoughts. I&amp;rsquo;ve been a professional software engineer since 2006 and have a breadth of experience in many industries. I pride myself on writing software in a clean and maintainable way. I&amp;rsquo;m not that big of a blogger so you may not find too many updates to the website but when I feel like it I&amp;rsquo;ll post things about my interests.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://xanderguzman.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xanderguzman.com/projects/</guid>
+      <description>Software Engineering  HiveD :: A small game engine built around the Hive board game.  </description>
+    </item>
+    
+  </channel>
+</rss>
