@@ -2,49 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Musings of an engineer...</title>
-    <link>https://www.xanderguzman.com/</link>
+    <link>https://xanderguzman.com/</link>
     <description>Recent content on Musings of an engineer...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 Xander Guzman</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 13:16:01 -0600</lastBuildDate><atom:link href="https://www.xanderguzman.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 13:16:01 -0600</lastBuildDate><atom:link href="https://xanderguzman.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
-      <link>https://www.xanderguzman.com/resume/</link>
+      <link>https://xanderguzman.com/resume/</link>
       <pubDate>Wed, 28 Oct 2020 14:07:31 -0600</pubDate>
       
-      <guid>https://www.xanderguzman.com/resume/</guid>
+      <guid>https://xanderguzman.com/resume/</guid>
       <description>Xander Guzman  xander.guzman@xanderguzman.com github.com/theshadow Denver, CO @_xanderguzman USA 720-334-7653
- Education  2010-2014 (expected) PhD, Computer Science; Awesome University (MyTown) Thesis title: Deep Learning Approaches to the Self-Awesomeness Estimation Problem
- 2007-2010 BSc, Computer Science and Electrical Engineering; University of HomeTown (HomeTown) Minor: Awesomeology
-  Experience Your Most Recent Work Experience:
-Short text containing the type of work done, results obtained, lessons learned and other remarks. Can also include lists and links:</description>
+ Technical Experience  Amazon Web Services (AWS) AWS Lambda, Step Functions, API Gateway (V1), KMS, STS, IAM, CloudFormation, CodePipeline, CodeBuild, CodeCommit, Kinesis, Kinesis Firehose, Cognito, Athena, AWS Glue Programming Languages Go (1.x), Python (2.x), Python (3.x), PHP, C#, Java, C++ (C++11/C++98), C (C99) Data Stores RDS, Aurora, DynamoDB, S3, ElasticCache, Elastic Search, SNS, SQS, PostgreSQL, mySQL Containers Docker, Docker Compose, EC2, ECS, Fargate Operating Systems MacOS, Ubuntu 12.</description>
     </item>
     
     <item>
       <title>Greetings</title>
-      <link>https://www.xanderguzman.com/post/greetings/</link>
+      <link>https://xanderguzman.com/post/greetings/</link>
       <pubDate>Wed, 28 Oct 2020 13:16:01 -0600</pubDate>
       
-      <guid>https://www.xanderguzman.com/post/greetings/</guid>
+      <guid>https://xanderguzman.com/post/greetings/</guid>
       <description>Yay another website Yep it&amp;rsquo;s that time again, that time where I have the spare time to look at my personal website and make a decision about what I want it to be about and what content I want to live on it. I think this is a good start.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://www.xanderguzman.com/about/</link>
+      <link>https://xanderguzman.com/about/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xanderguzman.com/about/</guid>
+      <guid>https://xanderguzman.com/about/</guid>
       <description>Greetings and Salutations This website is a place to collect my random musings and thoughts. I&amp;rsquo;ve been a professional software engineer since 2006 and have a breadth of experience in many industries. I pride myself on writing software in a clean and maintainable way. I&amp;rsquo;m not that big of a blogger so you may not find too many updates to the website but when I feel like it I&amp;rsquo;ll post things about my interests.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://www.xanderguzman.com/projects/</link>
+      <link>https://xanderguzman.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xanderguzman.com/projects/</guid>
+      <guid>https://xanderguzman.com/projects/</guid>
       <description>Software Engineering  HiveD :: A small game engine built around the Hive board game.  </description>
     </item>
     
