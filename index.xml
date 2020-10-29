@@ -9,15 +9,6 @@
     <copyright>© 2020 Xander Guzman</copyright>
     <lastBuildDate>Wed, 28 Oct 2020 13:16:01 -0600</lastBuildDate><atom:link href="https://xanderguzman.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Resume</title>
-      <link>https://xanderguzman.com/resume/</link>
-      <pubDate>Wed, 28 Oct 2020 14:07:31 -0600</pubDate>
-      
-      <guid>https://xanderguzman.com/resume/</guid>
-      <description>Xander Guzman   Technical Experience  Amazon Web Services (AWS) AWS Lambda, Step Functions, API Gateway (V1), KMS, STS, IAM, CloudFormation, CodePipeline, CodeBuild, CodeCommit, Kinesis, Kinesis Firehose, Cognito, Athena, AWS Glue Programming Languages Go (1.x), Python (2.x), Python (3.x), PHP, C#, Java, C++ (C++11/C++98), C (C99) Data Stores RDS, Aurora, DynamoDB, S3, ElasticCache, Elastic Search, SNS, SQS, PostgreSQL, mySQL Containers Docker, Docker Compose, EC2, ECS, Fargate Operating Systems MacOS, Ubuntu 12.</description>
-    </item>
-    
-    <item>
       <title>Greetings</title>
       <link>https://xanderguzman.com/post/greetings/</link>
       <pubDate>Wed, 28 Oct 2020 13:16:01 -0600</pubDate>
@@ -42,6 +33,15 @@
       
       <guid>https://xanderguzman.com/projects/</guid>
       <description>Software Engineering  HiveD :: A small game engine built around the Hive board game.  </description>
+    </item>
+    
+    <item>
+      <title>Xander Guzman</title>
+      <link>https://xanderguzman.com/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xanderguzman.com/resume/</guid>
+      <description>xander.guzman@xanderguzman.com Denver, CO USA   Technical Experience  Amazon Web Services (AWS) AWS Lambda, Step Functions, API Gateway (V1), KMS, STS, IAM, CloudFormation, CodePipeline, CodeBuild, CodeCommit, Kinesis, Kinesis Firehose, Cognito, Athena, AWS Glue Programming Languages Go (1.x), Python (2.x), Python (3.x), PHP, C#, Java, C++ (C++11/C++98), C (C99) Data Stores RDS, Aurora, DynamoDB, S3, ElasticCache, Elastic Search, SNS, SQS, PostgreSQL, mySQL Containers Docker, Docker Compose, EC2, ECS, Fargate Operating Systems MacOS, Ubuntu 12.</description>
     </item>
     
   </channel>

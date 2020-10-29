@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xanderguzman.com/resume/</loc>
-    <lastmod>2020-10-28T14:07:31-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xanderguzman.com/post/greetings/</loc>
     <lastmod>2020-10-28T13:16:01-06:00</lastmod>
   </url>
@@ -37,6 +32,10 @@
   
   <url>
     <loc>https://xanderguzman.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xanderguzman.com/resume/</loc>
   </url>
   
 </urlset>
