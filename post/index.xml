@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 Xander Guzman</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 13:16:01 -0600</lastBuildDate><atom:link href="https://xanderguzman.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 14:22:15 -0700</lastBuildDate><atom:link href="https://xanderguzman.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatterbox a gRPC Project</title>
+      <link>https://xanderguzman.com/post/chatterbox-a-grpc-project/</link>
+      <pubDate>Fri, 06 Nov 2020 14:22:15 -0700</pubDate>
+      
+      <guid>https://xanderguzman.com/post/chatterbox-a-grpc-project/</guid>
+      <description>I was recently thinking about starting a gRPC project just to kick the tires and get a feel for how the technology worked. In the past I&amp;rsquo;ve only played with it for a short while and this was during the proto2 days. To give this a go I spent a couple of days learning about the proto3 specification and then trying to think of something worth spending the time and effort on.</description>
+    </item>
+    
     <item>
       <title>Greetings</title>
       <link>https://xanderguzman.com/post/greetings/</link>

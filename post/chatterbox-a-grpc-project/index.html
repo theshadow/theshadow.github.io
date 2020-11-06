@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Chatterbox a gRPC Project :: Musings of an engineer...</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I was recently thinking about starting a gRPC project just to kick the tires and get a feel for how the technology worked. In the past I&amp;rsquo;ve only played with it for a short while and this was during the proto2 days. To give this a go I spent a couple of days learning about the proto3 specification and then trying to think of something worth spending the time and effort on." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://xanderguzman.com/post/chatterbox-a-grpc-project/" />
+
+
+
+
+<link rel="stylesheet" href="https://xanderguzman.com/assets/style.css">
+
+  <link rel="stylesheet" href="https://xanderguzman.com/assets/green.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://xanderguzman.com/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://xanderguzman.com/img/favicon/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Chatterbox a gRPC Project">
+<meta property="og:description" content="I was recently thinking about starting a gRPC project just to kick the tires and get a feel for how the technology worked. In the past I&amp;rsquo;ve only played with it for a short while and this was during the proto2 days. To give this a go I spent a couple of days learning about the proto3 specification and then trying to think of something worth spending the time and effort on." />
+<meta property="og:url" content="https://xanderguzman.com/post/chatterbox-a-grpc-project/" />
+<meta property="og:site_name" content="Musings of an engineer..." />
+
+  
+    <meta property="og:image" content="https://xanderguzman.com/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-11-06 14:22:15 -0700 MST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Musings of an engineer...
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/resume">Resume</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="/resume">Resume</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://xanderguzman.com/post/chatterbox-a-grpc-project/">Chatterbox a gRPC Project</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-11-06 
+      </span>
+    
+    
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>I was recently thinking about starting a gRPC project just to kick the tires and get a feel for how the technology worked. In the past I&rsquo;ve only played with it for a short while and this was during the <a href="https://developers.google.com/protocol-buffers/docs/reference/proto2-spec">proto2</a> days. To give this a go I spent a couple of days learning about the <a href="https://developers.google.com/protocol-buffers/docs/reference/proto3-spec">proto3</a> specification and then trying to think of something worth spending the time and effort on.</p>
+<p>After a bit of thinking about how to use the duplex streaming that the framework provides I decided upon writing an IRC-like server and client. I figured this was complex enough to merit the attention and simple enough to implement over a couple of weeks during my spare time. With all of this in mind I started the <a href="https://github.com/theshadow/chatterbox">chatterbox</a> github repository and started to hack away. True to my method I started by spending a couple of days studying other &ldquo;chat&rdquo; implementations and trying to understand how the duplex would be implemented in the Go programming language.</p>
+<p>Once I had an idea of how the duplex would work, which came down to using managing Go routines to track ingress and egress traffic I started to lay down the basics of what I wanted to implement. At first I&rsquo;ll admit I probably tried to go too far but eventually I settled on implementing four of the basic IRC commands. Those were <strong>join</strong>, <strong>part</strong>, <strong>ping</strong>, and <strong>msg</strong>. With these commands I could support multiple channels and all of the basic behavior seen in an IRC server implementation.</p>
+<p>It took me about two days of hacking to get to a point where I&rsquo;d call it <em>pre-alpha</em>, that is it will compile, it may not work, and will definitely have bugs. Feel free to check it out. I&rsquo;ll attempt to move it into a true alpha release in the next couple of weeks and hopefully a beta version by the end of the year. If you have any questions feel free to reach out. I don&rsquo;t plan to implement any other commands but do plan to get the commands that exist and the client and server into beta state.</p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="https://xanderguzman.com/post/greetings/">
+                <span class="button__text">Greetings</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2020 Xander Guzman</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://xanderguzman.com/assets/main.js"></script>
+<script src="https://xanderguzman.com/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
